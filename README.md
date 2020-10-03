@@ -1,6 +1,6 @@
 # IGTI_jogoDaVelha
 
-Bootcamp Online - Desenvolvedor Front End - IGTI - 09-2020
+Bootcamp Online - Desenvolvedor Front End - IGTI - 10-2020
 
 Desafio Módulo 2:
 

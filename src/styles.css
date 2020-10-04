@@ -1,0 +1,43 @@
+body {
+    margin: auto 2em;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;;
+}
+
+h1 {
+    color: lightskyblue;
+    margin-top: 1em;
+}
+
+app-tic-tac-toe table {
+    border-spacing: 0;
+    border-collapse: collapse;
+    margin: auto;
+}
+
+app-tic-tac-toe td {
+    border: 2px solid lightskyblue;
+    width: 10em;
+    height: 10em;
+    text-align: center;
+}
+
+button {
+    margin-top: 2em;
+    margin-bottom: 2em;
+    width: 8em;
+    height: 3em;
+    border: 2px solid lightskyblue;
+    border-radius: 3px;
+    background-color: lightskyblue;
+    color: snow;
+    font-size: 1em;
+    font-weight: 600;
+}
+
+button:disabled {
+    background-color: lightgray;
+    color: darkgray;
+    border: 2px solid lightgray;
+
+}

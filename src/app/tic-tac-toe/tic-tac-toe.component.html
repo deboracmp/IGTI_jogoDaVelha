@@ -1,0 +1,9 @@
+<p *ngIf="!winner">Jogador atual:  {{currentPlayer}}</p>
+<P *ngIf="winner">Vencedor: {{winner}} </P>
+<table>
+    <tr *ngFor="let row of [0, 1, 2]">
+        <td *ngFor="let col of [0, 1, 2]" (click)="processPlay(row,col)">{{board[row][col]}}</td>
+    </tr>
+</table>
+<button (click)="reset()">Reiniciar</button>
+<p>Trabalho Prático do Módulo Angular do Bootcamp Online de Desenvolvedor Front-End da IGTI</p>
